@@ -1,0 +1,287 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body, html {
+    width: 100%;
+    background-color: white;
+    margin:auto;
+    min-width:1000px;
+    max-width:2000px;
+    font-family: 'Revalia', cursive;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.nav-main {
+    width:100%;
+    background-color:#222;
+    height: 56px;
+    color: #fff;
+}
+
+.nav-main .logo {
+    float:left;
+    height:56px;
+    padding:0px 30px;
+}
+
+.nav-main > ul {
+    margin:-21px;
+    padding:0;
+    float:right;
+    list-style-type:none;
+}
+
+.nav-main > ul > li {
+    float: left;
+    padding: 0px 30px;
+
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 45px 20px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color:white;
+    color:rgb(142, 0, 0);
+    opacity: black;
+}
+
+.photosection {
+  position: relative;
+}
+.bgphoto {
+  margin:-10px auto;
+  min-width:1000px;
+  max-width:2000px;
+  max-height: 100%;
+  width: 100%;
+  position: relative;
+
+  }
+
+.friendstext {
+position: absolute;
+left: 545px; top: 177px;
+color: white;
+font-size: 50px;
+}
+
+.circle {
+  position: absolute;
+  left: 644px; top: 54px;
+
+  }
+
+.tool {
+  position: absolute;
+  left: 662px; top: 79px;
+  border-radius: 10px;
+}
+
+.repair {
+    position: absolute;
+    left: 642px; top: 220px;
+    font-size: 20px;
+    color: white;
+  }
+
+
+  ul {
+      padding:0;
+      list-style: none;
+  }
+  .footer-social-icons {
+      width: 350px;
+      display:block;
+      margin: 0 auto;
+      position: absolute;
+      top: 816px;
+      left: 650px;
+  }
+  .social-icon {
+      color: #fff;
+  }
+  ul.social-icons {
+      margin-top: 10px;
+  }
+  .social-icons li {
+      vertical-align: top;
+      display: inline;
+      /*height: 100px;*/
+  }
+  .social-icons a {
+      color: white;
+      text-decoration: none;
+
+  }
+  .fa-facebook {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-facebook:hover {
+      background-color: #3d5b99;
+  }
+
+
+  .fa-youtube {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-youtube:hover {
+      background-color: #e64a41;
+  }
+  .fa-linkedin {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #322f30;
+  }
+  .fa-linkedin:hover {
+      background-color: #0073a4;
+  }
+.blackhover{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+}
+h3 {
+  left: 680px;
+  position: relative;
+  top: 100px;
+  color:white;
+  margin: 0;
+  font-size: 20px;
+}
+.line {
+  position: relative;
+  justify-content: center;
+  left: 702px;
+  top: 100px;
+}
+.circles {
+  position: absolute;
+  top: 1045px;
+  left: 312px;
+}
+.serv1{
+  position: absolute;
+  left: 34px;
+  top: 38px;
+}
+.serv2{
+  position: absolute;
+  left: 341px;
+  top: 31px;
+}
+.serv3{
+  position: absolute;
+  left: 647px;
+  top: 34px;
+}
+.span1, .span2, .span3 {
+  color: white;
+  position: absolute;
+}
+.span1 {
+  left: 40px;
+  top: 145px;
+}
+.span2 {
+  left: 338px;
+  top: 145px;
+}
+.span3 {
+  left: 618px;
+  top: 145px;
+}
+
+.hovergallery img{
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+opacity: 0.7;
+margin: 0 -67px 5px 0;
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1);
+box-shadow:0px 0px 30px gray;
+-webkit-box-shadow:0px 0px 30px gray;
+-moz-box-shadow:0px 0px 30px gray;
+opacity: 1;
+}
+.hovergallery {
+  position: relative;
+  top: 575px;
+  margin: 300px;
+
+}
+.footer {
+  position: relative;
+}
+
+.article {
+  position: absolute;
+  top: -130px;
+  text-align: center;
+  left: 213px;
+  color: white;
+  font-size: 25px;
+  margin: 0;
+}
+
+
+.articleline{
+  top: -122px;
+  left: 359px;
+
+}
+.secondline{
+  top: -122px;
+  left: 359px;
+
+  }
+.formsubmit {
+  box-sizing: content-box;
+  justify-content: center;
+  top: 329px;
+  left: 642px;
+  position: relative;
+  width: 191px;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+  h4  {
+    position: absolute;
+    top: 775px;
+    color: white;
+    left: 642px;
+  }
